@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaRegUser } from "react-icons/fa";
-// import "../scss/forgot-password.css";
+import "../scss/forgetpassword.css";
 
 const ForgetPassword = () => {
   const [email, setEmail] = useState("");

@@ -21,25 +21,11 @@ const Login = () => {
         <div className="login__input-group">
           <div className="login__input-wrapper">
             <FaRegUser className="login__icon" />
-            <input
-              className="login__input"
-              type="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
+            <input className="login__input" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
           </div>
           <div className="login__input-wrapper">
             <FaLock className="login__icon" />
-            <input
-              className="login__input"
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-            />
+            <input className="login__input" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
           </div>
         </div>
         <Link to="/forgot-password" className="login__link">
