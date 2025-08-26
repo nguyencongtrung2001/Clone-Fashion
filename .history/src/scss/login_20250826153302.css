@@ -1,0 +1,14 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  background-color: red;
+  padding: 10px;
+  gap: 1rem;
+}
+.login .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}/*# sourceMappingURL=login_20250826153302.css.map */
